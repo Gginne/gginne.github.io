@@ -29,12 +29,7 @@ const projects = [
         github: "#",
         host: "#"
     },
-    {
-        name: "Project 6",
-        desc: "This is project #6",
-        github: "#",
-        host: "#"
-    }
+ 
   
 ]
 
@@ -53,8 +48,6 @@ projects.forEach((project, index) => {
         <img src="./img/item${index+1}.png" alt="${project.name}" >
     </div>
     `
-
-    console.log(content)
 
     if(index % 2 === 0){
         content = '<div class="items">'+content
