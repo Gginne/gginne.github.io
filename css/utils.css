@@ -1,0 +1,87 @@
+/* Utilities */
+
+.py-1{padding: 1.5rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+
+.p-1{padding: 1.5rem;}
+.p-2{padding: 2rem;}
+.p-3{padding: 3rem;}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+.text-dark {
+    color: var(--dark);
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+.bg-secondary{
+    background-color: var(--secondary)
+}
+.bg-dark {
+    background-color: var(--dark);
+}
+.bg-white{
+    background-color: #fff
+}
+
+.m-heading{
+
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+
+}
+
+.l-heading{
+
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+
+}
+
+.title{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5.5rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    color: var(--dark);
+    background-color: #fff;
+    border-radius: 50px;
+    transition: .2s;
+   
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(36, 36, 36, 0.2)
+  }
+
+.btn-primary {
+    color: var(--dark);
+    background-color: var(--primary);
+}
