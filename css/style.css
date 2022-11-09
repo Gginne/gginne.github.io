@@ -122,29 +122,27 @@ color: #e9c704;
 
 /* Section: Work */
 
-#work .works .items{
-    display: flex
+#work .works .project{
+    display: flex;
+    margin: 1.5rem 0;
 }
-#work .works .items .item{
-    flex: 1;
-    margin: .5rem;
-}
-
-
-#work .items .item img{
+#work .works .project .project-thumbnail {
+    width: 500px;
     
-    width: 90%;
 }
 
-#work .items .item .img-holder {position: relative;}
-#work .items .item .img-holder figcaption {
-    background-color: #0f1314a3;
-    color: #fff;
-    position: absolute;
-    width: 100px;
-    bottom: 10%; /*your button position*/
-    right: 70%; /*your button position*/
+#work .works .project .project-desc {
+    
+    color: white;
+    border: 1px solid var(--primary)
 }
+
+#work .works .project .project-desc .project-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 /* Contact */
 
