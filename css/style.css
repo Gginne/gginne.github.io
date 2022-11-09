@@ -115,8 +115,9 @@ color: #e9c704;
     font-size: 1rem;
     padding-bottom: 1rem;
 }
-#about .items .item p{
+#about .items .item ul{
     font-size: 1rem;
+    list-style: none;
    
 }
 
