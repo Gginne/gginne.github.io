@@ -54,6 +54,15 @@
     font-size: 1rem;
 }
 
+.s-heading{
+
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+
+}
+
 .m-heading{
 
     font-family: 'Permanent Marker', cursive;
